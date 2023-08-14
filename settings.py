@@ -1,0 +1,10 @@
+import pygame
+
+RES = WIDTH, HEIGHT = 1500, 800
+FACTOR = 4
+TILE = TILE_WIDTH, TILE_HEIGHT = 16, 16
+
+PLAYER_WALK_SPEED = 0.004
+PLAYER_RUN_SPEED = 0.006
+PLAYER_MOVEMENT_KEYS = [pygame.K_z, pygame.K_d, pygame.K_s, pygame.K_q]
+PLAYER_TOGGLE_SPRINT = pygame.K_w
